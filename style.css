@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.img-width {
+  width: 100px;
+}
+/* Navbar */
+.navbar .nav-item {
+  margin-left: 10px;
+}
+.navbar .nav-item .nav-link {
+  position: relative;
+}
+.navbar .nav-item .nav-link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background-color: white;
+}
+.navbar-brand img {
+  width: 100px;
+}
+.header-title h1 {
+  font-weight: 800;
+}
+
+.header-title h3 {
+  font-weight: 500;
+}
+
+.features img {
+  width: 100px;
+}
+
+.heading-post-list {
+  font-weight: 700;
+  color: #6868ac;
+}
+
+.font-size-30 {
+  font-size: 50px;
+}
+
+.post-title-h3 {
+  margin: 0;
+}
+
+.post-title-h3 a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.badge-category {
+  background: #6868ac;
+  color: white;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 4px;
+  margin: 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  box-shadow: 5px 5px 7px 0px rgb(0 0 0);
+}
+.gambar-lengkung {
+  border-radius: 1rem;
+}
+
+.post-list-wrapper {
+  gap: 25px;
+  display: flex;
+  margin: 0 auto;
+  width: 890px;
+}
+
+.width-890 {
+  width: 890px;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.footer {
+  display: 890px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+footer {
+  background-color: #4a4a8a;
+}
+
+.footer .title-tag {
+  color: white;
+}
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+.pt-6 {
+  color: white;
+}
